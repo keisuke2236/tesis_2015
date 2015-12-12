@@ -1,0 +1,25 @@
+%------------------------------------------------------%
+%- 目次とか色々
+%------------------------------------------------------%
+
+% 表紙など
+\ifTaA
+	\makejuryosho
+	\makecover
+	\maketitle
+	\jabst{
+		\input{./article/Abstract}
+	}
+	\makejabstract
+\fi
+
+% 目次 ・ 図目次 ・ 表目次
+\ifToC
+	\pagenumbering{roman}
+	\setcounter{tocdepth}{3}
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	\clearpage
+	\pagenumbering{arabic}
+\fi

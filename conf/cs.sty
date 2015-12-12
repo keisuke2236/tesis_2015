@@ -1,0 +1,289 @@
+% TEUthesis.sty -- 東京工科大学論文スタイルファイル
+% CS用デザイン
+
+% Version 1.1
+% Update at 3 December 2007 by 廣田悠輔, 生野壮一郎
+
+%------------------------------------------------------%
+% Version 1.2
+% Update at 2012/12/25 - by Ryo Tanaka (sakura)
+%	- jreport向けの記述を削除
+%	- jsbookに合うようにサイズを調整
+%	- タイトルが長い人向けに定義を追加
+% 
+% Version 1.21
+%	- 論文概要 (Abstract) にて，字下げが行われない不具合を修正
+%------------------------------------------------------%
+
+%------------------------------------------------------%
+% ！ このファイルはタイトルがはみ出るなどの
+%    事情がない限り，編集しない事をオススメします．
+%------------------------------------------------------%
+
+\typeout{Document Style `thesis' .<17 Jan 2003>}
+
+%------------------------------------------------------%
+%- Define
+%------------------------------------------------------%
+
+\def\id#1{\gdef\@id{#1}}					% 学籍番号
+\def\teacher#1{\gdef\@teacher{#1}}			% 指導教員
+\def\nendo#1{\gdef\@nendo{#1}}				% 卒業論文作成年度
+\def\covertitle#1{\gdef\@covertitle{#1}}	% 卒業論文 or 修士論文
+\def\course#1{\gdef\@course{#1}}			% 学科・専攻
+\def\cnendo#1{\gdef\@cnendo{#1}}			% 卒業論文作成年度
+\def\clab#1{\gdef\@clab{#1}}				% 研究室
+\def\ccourse#1{\gdef\@ccourse{#1}}			% 学科
+\def\tcourse#1{\gdef\@tcourse{#1}}			% 学部
+\def\jabst#1{\long\gdef\@jabst{#1}}			% 概要
+\def\department#1{\gdef\@depertment{#1}}	% 学部
+\def\coursename#1{\gdef\@coursename{#1}}	% 所属学部
+% 追加 (sakura)
+\def\longTitleA#1{\gdef\@longTitleA{#1}}
+\def\longTitleB#1{\gdef\@longTitleB{#1}}
+
+% CS学部
+\newcommand{\courseofcs}{
+ {\department{東~~~京~~~工~~~科~~~大~~~学}}
+ {\coursename{コンピュータサイエンス~~学~~部}}
+ {\ccourse{コンピュータサイエンス学部}}
+ {\tcourse{コンピュータ\\サイエンス学部}}
+ {\covertitle{卒~~~業~~~論~~~文}}
+ {\course{学~~~~~部}}
+}
+
+
+%------------------------------------------------------%
+%- 卒論表紙
+%------------------------------------------------------%
+
+\def\maketitle{\begin{titlepage}
+\let\footnotesize\small \let\footnoterule\relax \thispagestyle{empty}
+\setcounter{page}{0}
+\null \vfil
+\begin{center}
+\vspace*{-4mm}
+\large \@depertment\\
+\vspace{10mm}
+\Large{\bf \@covertitle}
+\end{center}
+\vspace{10mm}
+\begin{center}
+\setlength{\unitlength}{1mm}
+\begin{picture}(133,175)
+\linethickness{0.5mm}
+\put(3,175){論~文~題~目}
+\put(-0.1,145){\framebox(133,34){}}
+\put(-0.1,145.1){\framebox(133,34){}}
+\put(0,145.1){\framebox(133,34){}}
+\put(0,145){\makebox(133,33)[c]{{\Large\bf \@title}}}
+\put(0,145){\makebox(133,40)[c]{{\Large\bf \@longTitleA}}}
+\put(0,145){\makebox(133,26)[c]{{\Large\bf \@longTitleB}}}
+\thinlines
+\put(13,115){指~導~教~員}
+\put(45,110){\framebox(88,13){}}
+\put(45,110){\framebox(73,13){{\Large \@teacher}}}
+\put(13,85){提~~出~~日}
+\put(45,85){\makebox(88,4){{\Large \@date}}}
+\put(13,60){提~~出~~者}
+\multiput(20,-2)(0,17){4}{\line(1,0){113}}
+\put(20,-2){\line(0,1){51}}
+\put(46,-2){\line(0,1){51}}
+\put(133,-2){\line(0,1){51}}
+\put(20,32){\makebox(26,17){\@course}}
+\put(20,15){\makebox(26,17){学籍番号}}
+\put(20,-2){\makebox(26,17){氏~~~~~名}}
+\put(45,32){\makebox(87,17){{\Large \@coursename}}}
+\put(45,15){\makebox(87,17){{\Large \@id}}}
+\put(45,-2){\makebox(87,17){{\Large \@author}}}
+\end{picture}
+\end{center} \par
+\vfil \null
+\end{titlepage}
+\setcounter{footnote}{0} \let\thanks\relax \gdef\@date{} \let\maketitle\relax }
+
+
+%------------------------------------------------------%
+%- 卒論概要
+%------------------------------------------------------%
+
+\def\makejabstract{\begin{titlepage}
+\let\footnoterule\relax \setcounter{page}{0}
+\setlength{\unitlength}{1mm}
+\begin{center}
+\long\begin{picture}(150,220)(5,25)
+\put(0,0){\framebox(165,258){}}
+\put(0,241){\framebox(165,17){\large \@nendo \hspace*{1zw} \@covertitle \hspace*{1zw} 概~~~~~要}}
+\put(3,235){\large 論~文~題~目}
+\put(0,216){\makebox(165,24)[c]{{\Large\bf \@title}}}
+\put(0,216){\makebox(165,30)[c]{{\Large\bf \@longTitleA}}}
+\put(0,216){\makebox(165,17)[c]{{\Large\bf \@longTitleB}}}
+\put(0,195){\framebox(165,21){}}
+\put(0,205){\makebox(50,11)[c]{\shortstack{\large \@tcourse}}}
+\put(0,205){\line(1,0){50}}
+\put(0,193){\makebox(50,10){\large \@id}}
+\put(3,200){\makebox(50,5)[l]{学籍番号}}
+\put(50,195){\framebox(8,21){\shortstack{\large 氏\\ \\ \\ \large 名}}}
+\put(58,195){\makebox(50,21){{\Large \@author}}}
+\put(108,195){\framebox(8,21){\shortstack{
+\large 指\\ \large 導\\ \large 教\\ \large 員}}}
+\put(116,195){\makebox(50,21){{\Large \@teacher}}}
+\large
+\put(83,185){\makebox(-10,0)[t]{
+\begin{minipage}{165mm}
+\renewcommand{\baselinestretch}{3.0}
+\begin{quotation}
+\vspace{-4mm} \hspace{-3mm}
+\Large 【概~~要】 \vspace{1mm}
+\large
+\baselineskip=7.5mm
+\parindent=1em
+{　}			% 全角スペースです
+\@jabst
+\end{quotation}
+\end{minipage}
+}}
+\end{picture}
+\end{center}
+\end{titlepage}
+\setcounter{page}{0}
+\setcounter{footnote}{0}
+\let\thanks\relax
+\let\makejabstract\relax
+\thispagestyle{empty}}
+\gdef\@title{}\gdef\@author{}\gdef\@id{}\gdef\@teacher{}\gdef\@coursename{}
+\gdef\@date{}\gdef\@nendo{}\gdef\@thank{}
+
+
+%------------------------------------------------------%
+%- 表紙
+%------------------------------------------------------%
+
+\newcommand{\fonta}[1]{\large #1}%
+\newcommand{\fontb}[1]{\Large #1}%
+\newcommand{\fontc}[1]{\huge #1}%
+\newcommand{\fontd}[1]{\Huge #1}%
+\newcommand{\fonte}[1]{\small #1}%
+\newcommand{\fontf}[1]{\normalsize #1}%
+\newcommand{\fontg}[1]{\LARGE #1}
+
+\def\makecover{
+\begin{titlepage}%
+\begin{center}%
+\unitlength=1mm%
+\begin{picture}(210,210)(20,70)%
+  \put(0,280){\framebox(15,10){}}%
+  \put(0,270){\framebox(15,10){}}%
+  \put(0,274){\makebox(15,5){\vbox{\fontf \@cnendo}}}%
+  \put(0,270){\makebox(15,5){\vbox{\fontf 年~~度}}}%
+  \put(0,130){\framebox(15,150){}}%
+  \put(0,135){\makebox(15,135){\vbox{\tate \fontb \@title}}}%
+  \put(0,135){\makebox(21,135){\vbox{\tate \fontb \@longTitleA}}}%
+  \put(0,135){\makebox(9,135){\vbox{\tate \fontb \@longTitleB}}}%  
+  \put(0,56){\framebox(15,74){\vbox{\tate\fontc \@author}}}%
+  \put(0,36){\framebox(15,20){}}%
+  \put(0,48){\makebox(15,5){\vbox{\fontb \@clab}}}%
+  \put(0,40){\makebox(15,5){\vbox{\fonta 研究室}}}%
+  \put(0,30){\framebox(15,6){}}%
+  \put(55,285){\makebox(100,15){\fontb ┌(┌＾o＾)┐ キレイに切り取ってね ┌(＾o＾┐)┐}}%
+  \put(30,50){\framebox(150,230){}}%
+  \put(65,250){\underline{\makebox(80,10){\fontc [~~ \@covertitle~~ ]}}}%
+  \put(55,220){\underline{\makebox(100,10){\fontb\@title }}}
+  \put(55,224){\makebox(100,10){\fontb\@longTitleA }}
+  \put(55,218){\makebox(100,10){\fontb\@longTitleB }}
+  \put(55,200){\makebox(100,15){\fontb (指~導~教~員) \hspace*{1cm} \@teacher}}%
+  \put(55,140){\underline{\makebox(100,8){\fontb \hfil \@ccourse \hfil \@clab 研究室 \hfil}}}
+  \put(55,117){\underline{\makebox(40,6){\fonta 学籍番号 ~ \@id}}}%
+  \put(55,100){\underline{\makebox(100,10){\fontc\@author}}}
+  \put(80,70){\makebox(100,15){\fontb [~ \@nendo~ ] }}
+\end{picture}%
+\end{center}%
+\end{titlepage}
+}
+
+
+%------------------------------------------------------%
+%- 受領証
+%------------------------------------------------------%
+
+\def\juryoshotitle#1{\gdef\@juryoshotitle{#1}} % 受領証用 論文題目
+\def\juryoshoid#1#2#3#4#5#6#7#8{% 受領証用 学籍番号
+  \gdef\@juryoshoidA{#1} % 1文字目 アルファベット
+  \gdef\@juryoshoidB{#2}
+  \gdef\@juryoshoidC{#3}
+  \gdef\@juryoshoidD{#4}
+  \gdef\@juryoshoidE{#5}
+  \gdef\@juryoshoidF{#6}
+  \gdef\@juryoshoidG{#7}
+  \gdef\@juryoshoidH{#8}
+}
+
+\def\makejuryosho{%
+\begin{titlepage}
+\pagestyle{empty}
+\hspace*{-12mm}
+\vspace*{3mm}
+\setlength{\unitlength}{1mm}
+\begin{picture}(160.0,220.0)(0,0)
+\put(39.5,216.1){必要事項を記入し，卒業論文と一緒に提出すること}
+\put(42.4,201.0){\LARGE 卒業論文受領証\hspace{1zw}学生保管}
+\put(11.3,165.5){\framebox(126.3,25.5){}}
+\put(40.0,165.5){\line(0,1){25.5}}
+\put(52.21,178.5){\line(0,1){12.5}} % 1
+\put(64.43,178.5){\line(0,1){12.5}} % 2
+\put(76.64,178.5){\line(0,1){12.5}} % 3
+\put(88.85,178.5){\line(0,1){12.5}} % 4
+\put(101.06,178.5){\line(0,1){12.5}} % 5
+\put(113.28,178.5){\line(0,1){12.5}} % 6
+\put(125.49,178.5){\line(0,1){12.5}} % 7
+\put(11.3,178.4){\line(1,0){126.3}}
+\put(17.7,183){\large 学籍番号}
+\put(17.7,170){\large 氏\hspace{2zw}名}
+\put(43,166){\makebox(85,12){{\Large \@author}}}
+\put(44.00,183){\Large \@juryoshoidA}
+\put(56.21,183){\Large \@juryoshoidB}
+\put(68.43,183){\Large \@juryoshoidC}
+\put(80.64,183){\Large \@juryoshoidD}
+\put(92.85,183){\Large \@juryoshoidE}
+\put(105.36,183){\Large \@juryoshoidF}
+\put(117.58,183){\Large \@juryoshoidG}
+\put(129.79,183){\Large \@juryoshoidH}
+\put(11.3,104.4){\framebox(126.3,47.4){}}
+\put(87.2,104.4){\line(0,1){47.4}}
+\put(87.2,138.9){\line(1,0){50.5}}
+\put(18.5,130.0){\large 受領印を受けた後，本票を受け取り}
+\put(18.5,122.0){\large 大切に保管してください．}
+\put(105.0,143.7){\Large 受領印}
+\multiput(2.0,91.3)(1.0,0.0){150}{\line(1,0){0.7}} % Broken line
+\put(39.9,70.3){\LARGE 卒業論文受領証\hspace{1zw}事務局保管}
+\put(0,0){\framebox(156,66){}}
+\put(23.0,0){\line(0,1){66.0}}
+\put(33.75,53.4){\line(0,1){12.6}} %1
+\put(44.50,53.4){\line(0,1){12.6}} %2
+\put(55.25,53.4){\line(0,1){12.6}} %3
+\put(66.00,53.4){\line(0,1){12.6}} %4
+\put(76.75,53.4){\line(0,1){12.6}} %5
+\put(87.50,53.4){\line(0,1){12.6}} %6
+\put(98.25,53.4){\line(0,1){12.6}} %7
+\put(109.0,0){\line(0,1){66.0}}
+\put(0, 53.4){\line(1,0){156.0}}
+\put(0, 41.3){\line(1,0){109.0}}
+\put(0, 28.5){\line(1,0){109.0}}
+\put(3.3,58.5){\large 学籍番号}
+\put(4.1,46.0){\large 氏\hspace{2.0zw}名}
+\put(4.1,33.0){\large 指導教員}
+\put(4.1,12.8){\large 論文題目}
+\put(126.0,58.5){\large 受領印}
+\put(26.00,58){\Large \@juryoshoidA}
+\put(37.25,58){\Large \@juryoshoidB}
+\put(48.00,58){\Large \@juryoshoidC}
+\put(58.75,58){\Large \@juryoshoidD}
+\put(69.50,58){\Large \@juryoshoidE}
+\put(80.25,58){\Large \@juryoshoidF}
+\put(91.00,58){\Large \@juryoshoidG}
+\put(101.75,58){\Large \@juryoshoidH}
+\put(24,41){\makebox(85,12){{\Large \@author}}}
+\put(24,29){\makebox(85,12){{\Large \@teacher}}}
+\put(26,14){\begin{minipage}{84mm}\begin{center}{\Large \@juryoshotitle} \end{center}\end{minipage}}
+\end{picture}
+\end{titlepage}}

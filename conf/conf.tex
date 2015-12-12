@@ -1,0 +1,143 @@
+%======================================================%
+%----- T-lab LaTeX Configuration template
+%======================================================%
+
+%------------------------------------------------------%
+%- Import package
+%------------------------------------------------------%
+
+\usepackage{url}						% URL
+\usepackage{ifthen}						% 条件分岐
+
+
+%------------------------------------------------------%
+%- if
+%------------------------------------------------------%
+
+\newif\ifTaA					% 表紙と概要
+\newif\ifToC					% 目次
+\newif\ifPDF 					% 画像出力
+\newif\ifSRC					% ソースコード
+
+
+%------------------------------------------------------%
+%- Conditional branch
+%--- コンパイルしたい条件によって変えて
+%------------------------------------------------------%
+
+\TaAtrue					% 表紙と概要を出力するか
+%\TaAfalse					% ┗ しない場合
+\ToCtrue					% 目次を出力するか
+%\ToCfalse					% ┗ しない場合
+\PDFtrue					% 画像出力をPDFにするか
+%\PDFfalse					% ┗ しない場合
+
+%- ソースコードを使うか (※ README を読む事)
+%\SRCtrue					% 使う場合は true に
+\SRCfalse					% ┗ 使わない場合
+
+
+%------------------------------------------------------%
+%- Image output setting
+%------------------------------------------------------%
+
+\ifPDF
+	% PDF image output
+	\usepackage[dvipdfmx]{graphicx}
+	\usepackage[dvipdfmx]{color}
+	\usepackage[dvipdfmx]{colortbl}
+\else
+	% dviout image output
+	\usepackage[dviout]{graphicx}
+	\usepackage[dviout]{color}
+	\usepackage[dviout]{colortbl}
+\fi
+
+
+%------------------------------------------------------%
+%- listings
+%------------------------------------------------------%
+
+\ifSRC
+
+	\usepackage{listings}
+	\usepackage{jlisting}
+
+	\lstset{
+		classoffset=0,
+		numbers={left},
+		stepnumber={1},
+		sensitive={true},
+		frame={tRBl},
+		framesep={5pt},
+		frameround={fttt},
+		rulesep = 2pt,
+		showstringspaces={false},
+		tabsize={2},
+		breaklines=true,
+		xleftmargin=5mm,
+		xrightmargin=3mm,
+		%framexleftmargin=6mm,							% 行番号をフレームに入れる
+		basicstyle={\ttfamily \footnotesize},
+		numberstyle={\scriptsize},
+		stringstyle={\ttfamily \color[cmyk]{0,0.8,0,0}},
+		commentstyle={\color[rgb]{0,0.5,0}},
+		keywordstyle={\ttfamily \color[rgb]{0,0,1}}
+	}
+
+	%- Java
+	\newenvironment{Java}[0]{
+	\lstset{
+		language={Java},
+		classoffset=1,
+		keywordstyle={\ttfamily \color[rgb]{1, 0, 0}},
+		morekeywords={
+			Louise,
+		}
+	}}{}
+
+	%- Code paste
+	\newcommand{\srcPst}[4]{
+		\vspace{3mm}
+			\begin{#1} \lstinputlisting[caption=#4 ( #2 ), label=src:#3]{./src/#2} \end{#1}
+		\vspace{5mm}
+	}
+
+	\newcommand{\srcref}[1]{{\bf \lstlistingname~\ref{src:#1}}}		% 参照
+	\renewcommand{\lstlistingname}{{\bf リスト}}					% キャプション
+	\renewcommand{\thelstnumber}{\arabic{lstnumber}:}				% 行番号の表示
+
+\fi
+
+
+%------------------------------------------------------%
+%- Renewcommand
+%------------------------------------------------------%
+
+
+%------------------------------------------------------%
+%- Define original command
+%------------------------------------------------------%
+
+%- Reference
+\newcommand{\figref}[1]{{\bf \figurename~\ref{fig:#1}}}
+\newcommand{\tabref}[1]{{\bf \tablename~\ref{tab:#1}}}
+\newcommand{\equref}[1]{{\bf 式~(\ref{equ:#1})}}
+
+%- Quotation
+\newcommand{\dq}[1]{`` #1 ''}
+\newcommand{\bdq}[1]{{\bf \dq{#1}}}
+
+%- Bibliography
+\newcommand{\bib}[4]{\bibitem{#1} #2 : ``#3''{ }(#4)．}
+\newcommand{\bibURL}[5]{\bibitem{#1} #2 : ``#3''{ }\url{#4}{ }(#5)．}
+
+%- Image paste
+\newcommand{\figPst}[3]{
+	\vspace{3mm} \begin{figure}[tbh]
+		\begin{center}
+			\includegraphics[width=#1mm]{./figure/#2.png}
+			\caption{#3}\label{fig:#2}
+		\end{center}
+	\end{figure} \vspace{-2mm}
+}

@@ -1,0 +1,72 @@
+%======================================================%
+%----- T-lab LaTeX Template File for "Thesis"
+%
+%--- 必ず README を読んで下さい (by sakura)
+%======================================================%
+
+%------------------------------------------------------%
+%- Documentclass & Basic setting
+%------------------------------------------------------%
+
+\documentclass[a4paper,10pt,onecolumn,oneside,openany]{jsbook}
+
+% Import original package
+\usepackage{./conf/cs}
+\usepackage{./conf/style}
+\input{./conf/conf}
+
+% Define basic information
+% - ここら辺を空気読んで編集して
+\author{田中 遼}										% 著者
+\id{C0109343}											% 学籍番号
+\juryoshoid C0109343									% 学籍番号 ({}を付けないで)
+\title{学内クラウドの運用・改良および評価}				% タイトル短い人はこっち (\longTitle[AB] は空白に)
+\longTitleA{}											% タイトル長い人はこっちに A,B に分けて書く
+\longTitleB{}											% (\title は空白に)
+\juryoshotitle{学内クラウドの\\運用・改良および評価}		% タイトル (こっちは長い場合は \\ で改行を入れる)
+\courseofcs												% ここからはみんな同じ
+\clab{田胡}												% 研究室名
+\teacher{田胡 和哉}										% 指導教員
+\date{2013年01月23日}									% 提出日
+\cnendo{2012}											% 提出年度
+\nendo{2012年度}										% 提出年度
+
+
+%------------------------------------------------------%
+%- Document
+%------------------------------------------------------%
+
+\begin{document}
+\input{./Table_of_Contents}
+
+%------------------------------------------------------%
+
+\chapter{序論}
+\input{./article/introduction}
+
+%------------------------------------------------------%
+
+\chapter{クラウド・コンピューティング}
+\input{./article/cloud}
+
+%------------------------------------------------------%
+
+% ... 章ごとに書くと楽だよ
+
+%------------------------------------------------------%
+
+\chapter*{謝辞}
+\addcontentsline{toc}{chapter}{謝辞}
+\input{./article/acknowledgement}
+
+
+%------------------------------------------------------%
+%- References
+%------------------------------------------------------%
+
+\begin{thebibliography}{99}
+	\bibURL{louise}{ゼロの使い魔制作委員会}{ゼロの使い魔公式ウェブサイト}{http://www.zero-tsukaima.com/zero/index.html}{2012/12/28}
+	\bib{latex}{奥村晴彦 著}{\LaTeXe 美文書作成入門 改訂第3版}{技術評論社 2004, 403pp}
+\end{thebibliography}
+
+\end{document}

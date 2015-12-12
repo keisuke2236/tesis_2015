@@ -1,0 +1,37 @@
+%======================================================%
+%----- T-lab LaTeX Style template
+%======================================================%
+
+%------------------------------------------------------%
+% ！ 余白などの設定は研究室で統一しましょう．
+%------------------------------------------------------%
+
+%------------------------------------------------------%
+%- Basic page layout
+%------------------------------------------------------%
+
+\setlength{\textwidth}{150mm}		% テキスト
+\setlength{\fullwidth}{\textwidth}	% ページ全体の幅
+\setlength{\oddsidemargin}{35mm}	% 左余白
+\addtolength{\oddsidemargin}{-1in}	% 左位置デフォルトから-1inch
+\setlength{\textheight}{228mm}		% テキスト高さ
+\setlength{\topmargin}{20mm}		% 上余白
+\addtolength{\topmargin}{-1in}		% 上位置デフォルトから-1inch
+\setlength{\footskip}{10mm}			% 本文からフッタまで
+
+
+%------------------------------------------------------%
+%- Another layout
+%------------------------------------------------------%
+
+% ページ番号の位置指定
+\makeatletter
+\def\ps@plainfoot{%
+	\let\@mkboth\@gobbletwo
+	\let\@oddhead\@empty
+		\def\@oddfoot{\normalfont\hfil- \thepage\ -\hfil}%
+	\let\@evenhead\@empty
+	\let\@evenfoot\@oddfoot}
+\let\ps@plain\ps@plainfoot
+\makeatother
+\pagestyle{plain}
