@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  20 DEC 2015 14:52
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  20 DEC 2015 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -247,38 +247,39 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 36.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 36.
-) [3]
+ [3]) [4]
 第3章
-(./article/kose.tex) [4
+(./article/kose.tex) [5
 
 ]
 Overfull \vbox (15.61049pt too high) has occurred while \output is active []
 
 
-[5]
+[6]
 第4章
-(./article/make.tex) [6
+(./article/make.tex) [7
 
 ]
 Overfull \vbox (197.87845pt too high) has occurred while \output is active []
 
 
-[7]
+[8]
 第5章
-(./article/do.tex) [8
+(./article/do.tex) [9
 
 ]
 第6章
-(./article/fin.tex) [9
+(./article/fin.tex) [10
 
-] (./article/acknowledgement.tex) [10
+] (./article/acknowledgement.tex) [11
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 72.
- [11
+ [12
 
-] (./Thesis.aux) ) 
+]
+(./Thesis.aux) ) 
 Here is how much of TeX's memory you used:
  1342 strings out of 493807
  16461 string characters out of 6151950
@@ -288,4 +289,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  36i,12n,25p,235b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.dvi (20 pages, 48160 bytes).
+Output written on Thesis.dvi (21 pages, 52496 bytes).
