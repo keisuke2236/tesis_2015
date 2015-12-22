@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  21 DEC 2015 21:06
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  22 DEC 2015 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -258,9 +258,9 @@ File: ./figure/feel_analyze.png Graphic file (type bmp)
 
 <./figure/feel_analyze.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 62.
+(Font)              scaled to size 6.72699pt on input line 63.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 62.
+(Font)              scaled to size 5.76599pt on input line 63.
  [6]
 File: ./figure/kuppa_down.png Graphic file (type bmp)
  <./figure/kuppa_down.png>
@@ -304,4 +304,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  36i,12n,25p,235b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.dvi (30 pages, 78408 bytes).
+Output written on Thesis.dvi (30 pages, 80300 bytes).
