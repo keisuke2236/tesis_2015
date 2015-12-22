@@ -25,68 +25,82 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {第3章}設計}{5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}解析アルゴリズムの追加を可能にする機構}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}解析する内容別にプログラムを保持する機能}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}会話の話題別に解析するアルゴリズムを選ぶ機能}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}解析アルゴリズムを簡単に追加する機能}{6}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}解析した情報を共有する機能}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}解析情報を保存する機能}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}解析情報を取得する機能}{6}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}返答アルゴリズムの追加を可能にする機構}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}返答を行うタイミング}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}返答する内容別にアルゴリズムのを保持する機能}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}会話の話題別に返答アルゴリズムを選ぶ機能}{6}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}作成した知能をUnityで試す機構}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Unityでの出力について}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Unityとの連携に利用するWebSocket}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Unityへの送信フォーマットと作成}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.4}Unityからの受信フォーマット}{6}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}アルゴリズムを選定する際に用いるGoogleAPI}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}GoogleAPIについて}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}GoogleAPIの有効性}{6}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第4章}実装}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}入力された情報を解析する機構}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces 解析が行われるまでの図}}{5}}
+\newlabel{fig:analyze_chart}{{3.1}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}解析する情報別にアルゴリズムを保持する機能}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces 感情解析知能ハブとそれに付随する解析アルゴリズム}}{6}}
+\newlabel{fig:feel_analyze}{{3.2}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}会話の話題別に解析するアルゴリズムを選ぶ機能}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces 2015年12月20日現在の「クッパ　落ちた」のGoogle検索結果}}{7}}
+\newlabel{fig:kuppa_down}{{3.3}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces 2015年12月20日現在の「クッパ　美味しい」のGoogle検索結果}}{8}}
+\newlabel{fig:kuppa_umai}{{3.4}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}解析アルゴリズムを簡単に追加する機能}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces 抽象クラスの関係と抽象クラスの実装例}}{9}}
+\newlabel{fig:analyze_abs}{{3.5}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}解析結果を保存する機構}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}解析情報を保存する機能}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}解析情報を取得する機能}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}解析情報を元に出力内容を作成する機構}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces 出力情報を作成するまでの流れ}}{11}}
+\newlabel{fig:output}{{3.6}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}返答を行うタイミング}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}会話の話題別に返答アルゴリズムを保持する機能}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}会話の話題別に返答アルゴリズムを選ぶ機能}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}作成した知能をUnityで試す機構}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}UnityWebPlayerでの出力について}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Unity Web Playerによるキャラクターの表示画面}}{13}}
+\newlabel{fig:unity}{{3.7}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Unityとの連携に利用するWebSocket}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Unityへの送信フォーマットと作成}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.4}Unityからの受信フォーマット}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}アルゴリズムを選定する際に用いるGoogleAPI}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}GoogleAPIについて}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}GoogleAPIの有効性}{15}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第4章}実装}{16}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}開発環境}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Javaの利用}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Mavenフレームワーク}{8}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}解析部分の実装}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}解析分野別にアルゴリズムを保持する機構}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}会話の話題別に解析するアルゴリズムを選択する機構}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}解析アルゴリズムを3行で簡単に追加する機構}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}現在実装している解析アルゴリズム}{8}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}データベースの実装}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}全ての解析情報を保存する機構}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}解析した情報を取得する機構}{8}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}返答情報を作成する機構}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}出力分野別にアルゴリズムを保持する機構}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}会話の話題別に出力を作成するアルゴリズムを選択する機構}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}返答アルゴリズムを3行で簡単に追加する機構}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}現在実装している出力アルゴリズム}{8}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Unityとの通信の実装}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Unityからの入力情報の受信}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}Unityへの命令の送信}{8}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}追加したモーションの利用}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}動作選択アルゴリズムの実装}{8}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.7}GoogleAPIと形態素解析を用いた頻出単語表の作成する機構}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}形態素解析による検索ワードの作成}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.2}GoogleAPIを利用して検索結果を取得}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.3}検索結果のフィルタリング}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.4}頻出単語表の作成}{8}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第5章}実行結果}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}開発環境}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Javaの利用}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Mavenフレームワーク}{17}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}解析部分の実装}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}解析分野別にアルゴリズムを保持する機構}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}会話の話題別に解析するアルゴリズムを選択する機構}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}解析アルゴリズムを3行で簡単に追加する機構}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}現在実装している解析アルゴリズム}{17}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}データベースの実装}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}全ての解析情報を保存する機構}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}解析した情報を取得する機構}{17}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}返答情報を作成する機構}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}出力分野別にアルゴリズムを保持する機構}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}会話の話題別に出力を作成するアルゴリズムを選択する機構}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}返答アルゴリズムを3行で簡単に追加する機構}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}現在実装している出力アルゴリズム}{17}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Unityとの通信の実装}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Unityからの入力情報の受信}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}Unityへの命令の送信}{17}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}追加したモーションの利用}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}動作選択アルゴリズムの実装}{17}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}GoogleAPIと形態素解析を用いた頻出単語表の作成する機構}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}形態素解析による検索ワードの作成}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.2}GoogleAPIを利用して検索結果を取得}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.3}検索結果のフィルタリング}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.4}頻出単語表の作成}{17}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第5章}実行結果}{18}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Unityの出力画面の図}{9}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}実際の会話}{9}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}アルゴリズムを追加した後の会話}{9}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第6章}結論}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Unityの出力画面の図}{18}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}実際の会話}{18}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}アルゴリズムを追加した後の会話}{18}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第6章}結論}{19}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}結論}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}アルゴリズムの追加による出力の変化}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}Googleを用いた会話の話題推定の精度}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.3}簡単にアルゴリズムを追加できたか}{10}}
-\@writefile{toc}{\contentsline {chapter}{謝辞}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}結論}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}アルゴリズムの追加による出力の変化}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}Googleを用いた会話の話題推定の精度}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.3}簡単にアルゴリズムを追加できたか}{19}}
+\@writefile{toc}{\contentsline {chapter}{謝辞}{20}}
 \bibcite{louise}{1}
 \bibcite{latex}{2}
-\@writefile{toc}{\contentsline {chapter}{参考文献}{12}}
+\@writefile{toc}{\contentsline {chapter}{参考文献}{21}}

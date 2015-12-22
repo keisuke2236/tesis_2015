@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  20 DEC 2015 16:13
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  21 DEC 2015 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -249,44 +249,59 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 36.
  [3]) [4]
 第3章
-(./article/kose.tex) [5
+(./article/kose.tex
+File: ./figure/analyze_chart.png Graphic file (type bmp)
+ <./figure/analyze_chart.png> [5
 
 ]
-Overfull \vbox (15.61049pt too high) has occurred while \output is active []
+File: ./figure/feel_analyze.png Graphic file (type bmp)
 
+<./figure/feel_analyze.png>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 62.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 62.
+ [6]
+File: ./figure/kuppa_down.png Graphic file (type bmp)
+ <./figure/kuppa_down.png>
+File: ./figure/kuppa_umai.png Graphic file (type bmp)
 
-[6]
+<./figure/kuppa_umai.png> [7] [8]
+File: ./figure/analyze_abs.png Graphic file (type bmp)
+ <./figure/analyze_abs.png> [9] [10]
+File: ./figure/output.png Graphic file (type bmp)
+
+<./figure/output.png> [11] [12]
+File: ./figure/unity.png Graphic file (type bmp)
+ <./figure/unity.png> [13] [14]) [15]
 第4章
-(./article/make.tex) [7
+(./article/make.tex) [16
 
 ]
 Overfull \vbox (197.87845pt too high) has occurred while \output is active []
 
 
-[8]
+[17]
 第5章
-(./article/do.tex) [9
+(./article/do.tex) [18
 
 ]
 第6章
-(./article/fin.tex) [10
+(./article/fin.tex) [19
 
-] (./article/acknowledgement.tex) [11
+] (./article/acknowledgement.tex) [20
 
-]
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 72.
- [12
+] [21
 
 ]
 (./Thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 1342 strings out of 493807
- 16461 string characters out of 6151950
+ 1363 strings out of 493807
+ 16829 string characters out of 6151950
  82091 words of memory out of 5000000
- 4782 multiletter control sequences out of 15000+600000
- 18181 words of font info for 83 fonts, out of 8000000 for 9000
+ 4797 multiletter control sequences out of 15000+600000
+ 18370 words of font info for 84 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  36i,12n,25p,235b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.dvi (21 pages, 52496 bytes).
+Output written on Thesis.dvi (30 pages, 78408 bytes).
