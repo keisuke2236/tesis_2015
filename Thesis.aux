@@ -42,7 +42,7 @@
 \newlabel{fig:kuppa_down}{{3.3}{8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces 2015年12月20日現在の「クッパ　美味しい」のGoogle検索結果}}{9}}
 \newlabel{fig:kuppa_umai}{{3.4}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}解析アルゴリズムを簡単に追加する機能}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}解析アルゴリズムを簡単に追加する機構}{10}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces 抽象クラスの関係と抽象クラスの実装例}}{10}}
 \newlabel{fig:analyze_abs}{{3.5}{10}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}解析結果を保存する機構}{11}}
@@ -72,90 +72,94 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Mavenフレームワーク}{17}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}解析部分の実装}{17}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}解析コントローラー}{17}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces 実装した主要メソッド}}{17}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces 実装した主要構成要素}}{17}}
 \newlabel{tab:InputController}{{4.1}{17}}
 \newlabel{src:inCnt}{{4.1}{17}}
 \@writefile{lol}{\contentsline {lstlisting}{\numberline {4.1}新しい解析分野を登録する際のソースコードの一部 ( inCnt.java )}{17}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}解析知能ハブ}{18}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Abstract Modeに実装した主要メソッド}}{18}}
-\newlabel{tab:Abstract Mode}{{4.2}{18}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Abstract Modeに実装した主要構成要素}}{19}}
+\newlabel{tab:Abstract Mode}{{4.2}{19}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}解析アルゴリズムの各解析知能ハブへの追加}{19}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Abstract Modeの実装}}{19}}
+\newlabel{sec:anaAdd}{{4.2.3}{19}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Abstract Modeの主要構成要素}}{19}}
 \newlabel{tab:Abstract Mode Parts}{{4.3}{19}}
 \newlabel{src:about}{{4.2}{19}}
 \@writefile{lol}{\contentsline {lstlisting}{\numberline {4.2}コンストラクタで話題を設定するソースコードの一部 ( about.java )}{19}}
-\newlabel{src:anaAlgo}{{4.3}{19}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.3}解析アルゴリズムを記述するメソッドのソースコードの一部 ( anaAlgo.java )}{19}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}現在実装している解析アルゴリズム}{20}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}データベースの実装}{20}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}全ての解析情報を保存する機構}{20}}
-\newlabel{src:dbIn}{{4.4}{20}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.4}データベースの解析結果を保存するメソッドの一部 ( dbIn.java )}{20}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}解析した情報を取得する機構}{21}}
-\newlabel{src:dbOut}{{4.5}{21}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.5}データベースの解析結果をするメソッド ( dbOut.java )}{21}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}出力を行う知能ハブの実装}{21}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}出力コントローラー}{21}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces 実装した主要なメソッド}}{22}}
-\newlabel{tab:OutputController}{{4.4}{22}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}出力知能ハブ}{22}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces 実装した主要なメソッド}}{22}}
-\newlabel{tab:abstractmode}{{4.5}{22}}
-\newlabel{src:getOutput}{{4.6}{22}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.6}getOutput.javaのソースコードの一部 ( getOutput.java )}{22}}
+\newlabel{src:anaAlgo}{{4.3}{20}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.3}解析アルゴリズムを記述するメソッドのソースコードの一部 ( anaAlgo.java )}{20}}
+\newlabel{src:anaParts}{{4.4}{20}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.4}継承元クラスから一部抜粋した定義済みのメソッド ( anaParts.java )}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}現在実装している解析アルゴリズム}{21}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}データベースの実装}{21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}全ての解析情報を保存する機構}{21}}
+\newlabel{src:dbIn}{{4.5}{21}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.5}データベースの解析結果を保存するメソッドの一部 ( dbIn.java )}{21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}解析した情報を取得する機構}{22}}
+\newlabel{src:dbOut}{{4.6}{22}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.6}データベースの解析結果をするメソッド ( dbOut.java )}{22}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}出力を行う知能ハブの実装}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}出力コントローラー}{22}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces 実装した主要な構成要素}}{23}}
+\newlabel{tab:OutputController}{{4.4}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}出力知能ハブ}{23}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces 実装した主要な構成要素}}{23}}
+\newlabel{tab:abstractmode}{{4.5}{23}}
+\newlabel{src:getOutput}{{4.7}{23}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.7}getOutput.javaのソースコードの一部 ( getOutput.java )}{23}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}出力アルゴリズムの出力知能ハブへの追加}{24}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces 実装した主要なメソッド}}{24}}
-\newlabel{tab:parts}{{4.6}{24}}
-\newlabel{src:aisatu}{{4.7}{24}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.7}話題を指定する際のサンプルソースコードの一部 ( aisatu.java )}{24}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}現在実装している出力アルゴリズム}{24}}
-\newlabel{sec:back}{{4.4.4}{24}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces 実装した主要なメソッド}}{25}}
+\newlabel{tab:parts}{{4.6}{25}}
+\newlabel{src:aisatu}{{4.8}{25}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.8}話題を指定する際のサンプルソースコードの一部 ( aisatu.java )}{25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}現在実装している出力アルゴリズム}{25}}
+\newlabel{sec:back}{{4.4.4}{25}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.5}Unityとの通信の実装}{25}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}通信方式}{25}}
-\newlabel{src:endpoint}{{4.8}{25}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.8}WebSocketのJavaサーバー側実装の一部 ( endpoint.java )}{25}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}Unityからの入力情報の受信}{26}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3}Unityへの命令の送信}{26}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}人工知能利用フレームワークに追加したモーションの利用}{26}}
-\newlabel{sec:motion}{{4.6}{26}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}動作選択アルゴリズムの実装}{26}}
-\newlabel{src:motion}{{4.9}{26}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.9}動作選択アルゴリズムの一部抜粋 ( motion.java )}{26}}
+\newlabel{src:endpoint}{{4.9}{26}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.9}WebSocketのJavaサーバー側実装の一部 ( endpoint.java )}{26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}Unityからの入力情報の受信}{27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3}Unityへの命令の送信}{27}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}人工知能利用フレームワークに追加したモーションの利用}{27}}
+\newlabel{sec:motion}{{4.6}{27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}動作選択アルゴリズムの実装}{27}}
+\newlabel{src:motion}{{4.10}{27}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.10}動作選択アルゴリズムの一部抜粋 ( motion.java )}{27}}
 \citation{suzuki}
 \citation{gitkuromoji}
 \citation{kuromoji}
 \citation{google}
-\@writefile{toc}{\contentsline {section}{\numberline {4.7}GoogleAPIによる頻出単語表の作成}{28}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}形態素解析による検索ワードの作成}{28}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.2}GoogleAPIを利用して検索結果を取得}{28}}
-\newlabel{src:google}{{4.10}{28}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.10}GoogleAPIの一部抜粋ソースコード ( google.java )}{28}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.3}検索結果のフィルタリング}{35}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.4}頻出単語表の作成}{35}}
-\newlabel{src:word}{{4.11}{35}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.11}WordCounterの一部抜粋ソースコード ( word.java )}{35}}
-\newlabel{src:words}{{4.12}{36}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.12}頻出単語表 ( words.json )}{36}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第5章}実行結果}{38}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}GoogleAPIによる頻出単語表の作成}{29}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}形態素解析による検索ワードの作成}{29}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.2}GoogleAPIを利用して検索結果を取得}{29}}
+\newlabel{src:google}{{4.11}{29}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.11}GoogleAPIの一部抜粋ソースコード ( google.java )}{29}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.3}検索結果のフィルタリング}{36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.4}頻出単語表の作成}{36}}
+\newlabel{src:word}{{4.12}{36}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.12}WordCounterの一部抜粋ソースコード ( word.java )}{36}}
+\newlabel{src:words}{{4.13}{37}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.13}頻出単語表 ( words.json )}{37}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第5章}実行結果}{39}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Unityの出力画面の図}{38}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces キャラクターとの対話画面}}{38}}
-\newlabel{fig:doUnity}{{5.1}{38}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}実際の会話}{39}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces キャラクターとの対話例}}{39}}
-\newlabel{tab:Chat}{{5.1}{39}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}アルゴリズムを追加した後の会話}{39}}
-\newlabel{sec:addAl}{{5.3}{39}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces アルゴリズム追加後の会話}}{39}}
-\newlabel{tab:afterChat}{{5.2}{39}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第6章}結論}{40}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Unityの出力画面の図}{39}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces キャラクターとの対話画面}}{39}}
+\newlabel{fig:doUnity}{{5.1}{39}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}実際の会話}{40}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces キャラクターとの対話例}}{40}}
+\newlabel{tab:Chat}{{5.1}{40}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}アルゴリズムを追加した後の会話}{40}}
+\newlabel{sec:addAl}{{5.3}{40}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces アルゴリズム追加後の会話}}{40}}
+\newlabel{tab:afterChat}{{5.2}{40}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第6章}結論}{42}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}結論}{40}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}アルゴリズムの追加による出力の変化}{40}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}簡単にアルゴリズムを追加できたか}{40}}
-\@writefile{toc}{\contentsline {chapter}{謝辞}{41}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}結論}{42}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}アルゴリズムの追加による出力の変化}{42}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}簡単にアルゴリズムを追加できたか}{42}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.3}システム全体としての結論}{43}}
+\@writefile{toc}{\contentsline {chapter}{謝辞}{44}}
 \bibcite{muno}{1}
 \bibcite{tino}{2}
 \bibcite{deep}{3}
@@ -167,4 +171,4 @@
 \bibcite{google}{9}
 \bibcite{kuromoji}{10}
 \bibcite{gitkuromoji}{11}
-\@writefile{toc}{\contentsline {chapter}{参考文献}{42}}
+\@writefile{toc}{\contentsline {chapter}{参考文献}{45}}

@@ -38,13 +38,8 @@ public class InputController {
 
     //ユーザから何かしらインプットがあった時の処理
     public void InputData(String inputJson) throws IOException {
-        //一時的にこうするだけ
-        
-        
-        
         System.out.println("入力　　　　【" + inputJson + "】");
         basicData = JSON.decode(inputJson, InputBasicData.class);
-        System.out.println("----------ALIVE-------------");
         //登録されているモードを実行
         for (int i = 0; AnalyzeMode.size() > i; i++) {
             AnalyzeMode.get(i).SetBasicData(basicData);
@@ -59,9 +54,7 @@ public class InputController {
                     AnalyzeMode.get(i).analyzeAddObj();
                     break;
             }
-            
         }
-        
     }
 
 }

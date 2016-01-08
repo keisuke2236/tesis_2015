@@ -9,5 +9,23 @@ public class InputController {
         //ログの保存
         AnalyzeMode.add(new Mode_ChatLog(database));
         //-----------------------------
+
+    }
+    public void InputData(String inputJson) throws IOException {
+        basicData = JSON.decode(inputJson, InputBasicData.class);
+        for (int i = 0; AnalyzeMode.size() > i; i++) {
+            AnalyzeMode.get(i).SetBasicData(basicData);
+            switch(basicData.getMode()){
+                case 1:
+                    AnalyzeMode.get(i).analyzeChat();
+                    break;
+                case 2:
+                    AnalyzeMode.get(i).analyzeTouch();
+                    break;
+                case 3:
+                    AnalyzeMode.get(i).analyzeAddObj();
+                    break;
+            }
+        }
     }
 }
