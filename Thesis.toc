@@ -51,8 +51,8 @@
 \contentsline {subsection}{\numberline {4.4.2}出力知能ハブ}{23}
 \contentsline {subsection}{\numberline {4.4.3}出力アルゴリズムの出力知能ハブへの追加}{24}
 \contentsline {subsection}{\numberline {4.4.4}現在実装している出力アルゴリズム}{25}
-\contentsline {section}{\numberline {4.5}Unityとの通信の実装}{25}
-\contentsline {subsection}{\numberline {4.5.1}通信方式}{25}
+\contentsline {section}{\numberline {4.5}Unityとの通信の実装}{26}
+\contentsline {subsection}{\numberline {4.5.1}通信方式}{26}
 \contentsline {subsection}{\numberline {4.5.2}Unityからの入力情報の受信}{27}
 \contentsline {subsection}{\numberline {4.5.3}Unityへの命令の送信}{27}
 \contentsline {section}{\numberline {4.6}人工知能利用フレームワークに追加したモーションの利用}{27}
