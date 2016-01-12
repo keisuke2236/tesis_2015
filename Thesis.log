@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  9 JAN 2016 20:00
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  12 JAN 2016 20:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -265,27 +265,28 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 ]) [2]
 第2章
-(./article/idia.tex [3
-
-]
+(./article/idia.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 43.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 43.
+(Font)              scaled to size 9.60999pt on input line 37.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 43.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 43.
+(Font)              scaled to size 9.60999pt on input line 37.
 File: ./figure/all_kose.png Graphic file (type bmp)
  <./figure/all_kose.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 45.
+(Font)              scaled to size 8.64899pt on input line 39.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 45.
+(Font)              scaled to size 8.64899pt on input line 39.
+ [3
+
+]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 64.
+(Font)              scaled to size 6.72699pt on input line 61.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 64.
+(Font)              scaled to size 5.76599pt on input line 61.
  [4]) [5]
 第3章
 (./article/kose.tex
@@ -329,7 +330,7 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 ]
 [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29]
-Overfull \hbox (64.78078pt too wide) in paragraph at lines 420--420
+Overfull \hbox (64.78078pt too wide) in paragraph at lines 412--412
 [][][][] 
  []
 
@@ -341,11 +342,11 @@ File: ./figure/doUnity.png Graphic file (type bmp)
 
 ] [40]) [41]
 第6章
-(./article/fin.tex [42
+(./article/fin.tex) [42
 
-]) [43] (./article/acknowledgement.tex) [44
+] (./article/acknowledgement.tex) [43
 
-] [45
+] [44
 
 ]
 (./Thesis.aux)
@@ -356,10 +357,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3022 strings out of 493807
  40505 string characters out of 6151950
- 301096 words of memory out of 5000000
+ 308111 words of memory out of 5000000
  6418 multiletter control sequences out of 15000+600000
  19408 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  36i,12n,44p,436b,1756s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.dvi (54 pages, 318300 bytes).
+Output written on Thesis.dvi (53 pages, 318528 bytes).
