@@ -62,11 +62,11 @@
 \contentsline {subsection}{\numberline {4.7.4}頻出単語表の作成}{38}
 \contentsline {chapter}{\numberline {第5章}実行結果}{41}
 \contentsline {section}{\numberline {5.1}Unityの出力画面の図}{41}
-\contentsline {section}{\numberline {5.2}実際の会話}{42}
+\contentsline {section}{\numberline {5.2}実際の会話}{41}
 \contentsline {section}{\numberline {5.3}アルゴリズムを追加した後の会話}{42}
-\contentsline {chapter}{\numberline {第6章}結論}{44}
-\contentsline {section}{\numberline {6.1}結論}{44}
-\contentsline {subsection}{\numberline {6.1.1}アルゴリズムの追加による出力の変化}{44}
-\contentsline {subsection}{\numberline {6.1.2}簡単にアルゴリズムを追加できたか}{44}
-\contentsline {chapter}{謝辞}{45}
-\contentsline {chapter}{参考文献}{46}
+\contentsline {chapter}{\numberline {第6章}結論}{43}
+\contentsline {section}{\numberline {6.1}結論}{43}
+\contentsline {subsection}{\numberline {6.1.1}アルゴリズムの追加による出力の変化}{43}
+\contentsline {subsection}{\numberline {6.1.2}簡単にアルゴリズムを追加できたか}{43}
+\contentsline {chapter}{謝辞}{44}
+\contentsline {chapter}{参考文献}{45}
