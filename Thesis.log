@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  12 JAN 2016 20:35
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  13 JAN 2016 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -256,59 +256,66 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 34.
 (./article/now.tex
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 11.
+(Font)              scaled to size 9.60999pt on input line 23.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 11.
- [1
+(Font)              scaled to size 9.60999pt on input line 23.
 
 
-]) [2]
+LaTeX Warning: Citation `deep' on page 1 undefined on input line 23.
+
+[1
+
+
+] [2]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 67.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 67.
+File: ./figure/pepper.png Graphic file (type bmp)
+ <./figure/pepper.png>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 79.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 79.
+ [3]
+File: ./figure/hime.png Graphic file (type bmp)
+ <./figure/hime.png>) [4]
 第2章
 (./article/idia.tex
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 37.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 37.
+(Font)              scaled to size 11.53198pt on input line 36.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 37.
+(Font)              scaled to size 11.53198pt on input line 36.
 File: ./figure/all_kose.png Graphic file (type bmp)
- <./figure/all_kose.png>
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 39.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 39.
- [3
+ <./figure/all_kose.png> [5
 
-]
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 61.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 61.
- [4]) [5]
+] [6]) [7]
 第3章
 (./article/kose.tex
 File: ./figure/analyze_chart.png Graphic file (type bmp)
- <./figure/analyze_chart.png> [6
+ <./figure/analyze_chart.png> [8
 
 ]
 File: ./figure/feel_analyze.png Graphic file (type bmp)
 
-<./figure/feel_analyze.png> [7]
+<./figure/feel_analyze.png> [9]
 File: ./figure/kuppa_down.png Graphic file (type bmp)
- <./figure/kuppa_down.png> [8]
+ <./figure/kuppa_down.png> [10]
 File: ./figure/kuppa_umai.png Graphic file (type bmp)
 
-<./figure/kuppa_umai.png> [9]
+<./figure/kuppa_umai.png> [11]
 File: ./figure/analyze_abs.png Graphic file (type bmp)
- <./figure/analyze_abs.png> [10] [11]
+ <./figure/analyze_abs.png> [12] [13]
 File: ./figure/output.png Graphic file (type bmp)
 
-<./figure/output.png> [12] [13]
+<./figure/output.png> [14] [15]
 File: ./figure/unity.png Graphic file (type bmp)
- <./figure/unity.png> [14] [15]) [16]
+ <./figure/unity.png> [16] [17]) [18]
 第4章
 (./article/imple.tex
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -326,41 +333,49 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 7.68799pt on input line 43.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 7.68799pt on input line 43.
- [17
+ [19
 
 ]
-[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29]
+[20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31]
 Overfull \hbox (64.78078pt too wide) in paragraph at lines 412--412
 [][][][] 
  []
 
-[30] [31] [32] [33] [34] [35] [36] [37]) [38]
+[32] [33] [34] [35] [36] [37] [38] [39]) [40]
 第5章
 (./article/do.tex
 File: ./figure/doUnity.png Graphic file (type bmp)
- <./figure/doUnity.png> [39
+ <./figure/doUnity.png> [41
 
-] [40]) [41]
+] [42]) [43]
 第6章
-(./article/fin.tex) [42
+(./article/fin.tex) [44
 
-] (./article/acknowledgement.tex) [43
-
-] [44
+] (./article/acknowledgement.tex) [45
 
 ]
-(./Thesis.aux)
+Underfull \hbox (badness 1668) in paragraph at lines 105--106
+[]\OT1/cmr/m/n/10 Twitter : ``hiyokuno-hane \JY1/mc/m/n/10 さんの投稿\OT1/cmr/m
+/n/10 '' $\OT1/cmtt/m/n/10 https : / / twitter . com / hiyokunohane / status /
+ []
+
+[46
+
+] (./Thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3022 strings out of 493807
- 40505 string characters out of 6151950
- 308111 words of memory out of 5000000
- 6418 multiletter control sequences out of 15000+600000
+ 3036 strings out of 493807
+ 40630 string characters out of 6151950
+ 308246 words of memory out of 5000000
+ 6430 multiletter control sequences out of 15000+600000
  19408 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  36i,12n,44p,436b,1756s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.dvi (53 pages, 318528 bytes).
+Output written on Thesis.dvi (55 pages, 330120 bytes).
