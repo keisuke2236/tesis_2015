@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  13 JAN 2016 12:29
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  13 JAN 2016 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -278,8 +278,8 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 82.
  [3]
-File: ./figure/hime.png Graphic file (type bmp)
- <./figure/hime.png>)
+File: ./figure/nowUnity.png Graphic file (type bmp)
+ <./figure/nowUnity.png>)
 [4]
 第2章
 (./article/idia.tex
@@ -349,26 +349,21 @@ File: ./figure/doUnity.png Graphic file (type bmp)
 
 ] (./article/acknowledgement.tex) [44
 
+] [45
+
 ]
-Underfull \hbox (badness 1668) in paragraph at lines 105--106
-[]\OT1/cmr/m/n/10 Twitter : ``hiyokuno-hane \JY1/mc/m/n/10 さんの投稿\OT1/cmr/m
-/n/10 '' $\OT1/cmtt/m/n/10 https : / / twitter . com / hiyokunohane / status /
- []
-
-[45
-
-] [46] (./Thesis.aux)
+(./Thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3036 strings out of 493807
- 40630 string characters out of 6151950
- 308214 words of memory out of 5000000
- 6430 multiletter control sequences out of 15000+600000
+ 3035 strings out of 493807
+ 40636 string characters out of 6151950
+ 308210 words of memory out of 5000000
+ 6429 multiletter control sequences out of 15000+600000
  19408 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  36i,12n,44p,436b,1756s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.dvi (55 pages, 330576 bytes).
+Output written on Thesis.dvi (54 pages, 330780 bytes).
