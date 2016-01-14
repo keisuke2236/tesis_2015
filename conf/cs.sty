@@ -7,12 +7,12 @@
 %------------------------------------------------------%
 % Version 1.2
 % Update at 2012/12/25 - by Ryo Tanaka (sakura)
-%	- jreport向けの記述を削除
-%	- jsbookに合うようにサイズを調整
-%	- タイトルが長い人向けに定義を追加
+% - jreport向けの記述を削除
+% - jsbookに合うようにサイズを調整
+% - タイトルが長い人向けに定義を追加
 % 
 % Version 1.21
-%	- 論文概要 (Abstract) にて，字下げが行われない不具合を修正
+% - 論文概要 (Abstract) にて，字下げが行われない不具合を修正
 %------------------------------------------------------%
 
 %------------------------------------------------------%
@@ -26,18 +26,19 @@
 %- Define
 %------------------------------------------------------%
 
-\def\id#1{\gdef\@id{#1}}					% 学籍番号
-\def\teacher#1{\gdef\@teacher{#1}}			% 指導教員
-\def\nendo#1{\gdef\@nendo{#1}}				% 卒業論文作成年度
-\def\covertitle#1{\gdef\@covertitle{#1}}	% 卒業論文 or 修士論文
-\def\course#1{\gdef\@course{#1}}			% 学科・専攻
-\def\cnendo#1{\gdef\@cnendo{#1}}			% 卒業論文作成年度
-\def\clab#1{\gdef\@clab{#1}}				% 研究室
-\def\ccourse#1{\gdef\@ccourse{#1}}			% 学科
-\def\tcourse#1{\gdef\@tcourse{#1}}			% 学部
-\def\jabst#1{\long\gdef\@jabst{#1}}			% 概要
-\def\department#1{\gdef\@depertment{#1}}	% 学部
-\def\coursename#1{\gdef\@coursename{#1}}	% 所属学部
+\def\id#1{\gdef\@id{#1}}          % 学籍番号
+\def\teacher#1{\gdef\@teacher{#1}}      % 指導教員
+\def\nendo#1{\gdef\@nendo{#1}}        % 卒業論文作成年度
+\def\covertitle#1{\gdef\@covertitle{#1}}  % 卒業論文 or 修士論文
+\def\course#1{\gdef\@course{#1}}      % 学科・専攻
+\def\cnendo#1{\gdef\@cnendo{#1}}      % 卒業論文作成年度
+\def\clabA#1{\gdef\@clabA{#1}}        % 研究室名A
+\def\clabB#1{\gdef\@clabB{#1}}        % 研究室名B
+\def\ccourse#1{\gdef\@ccourse{#1}}      % 学科
+\def\tcourse#1{\gdef\@tcourse{#1}}      % 学部
+\def\jabst#1{\long\gdef\@jabst{#1}}     % 概要
+\def\department#1{\gdef\@depertment{#1}}  % 学部
+\def\coursename#1{\gdef\@coursename{#1}}  % 所属学部
 % 追加 (sakura)
 \def\longTitleA#1{\gdef\@longTitleA{#1}}
 \def\longTitleB#1{\gdef\@longTitleB{#1}}
@@ -138,7 +139,7 @@
 \large
 \baselineskip=7.5mm
 \parindent=1em
-{　}			% 全角スペースです
+{　}     % 全角スペースです
 \@jabst
 \end{quotation}
 \end{minipage}
@@ -182,19 +183,21 @@
   \put(0,135){\makebox(9,135){\vbox{\tate \fontb \@longTitleB}}}%  
   \put(0,56){\framebox(15,74){\vbox{\tate\fontc \@author}}}%
   \put(0,36){\framebox(15,20){}}%
-  \put(0,48){\makebox(15,5){\vbox{\fontb \@clab}}}%
-  \put(0,40){\makebox(15,5){\vbox{\fonta 研究室}}}%
+  \put(0,50){\makebox(15,5){\vbox{\fontb \@clabA}}}%
+  \put(0,46){\makebox(15,5){\vbox{\fontb ・}}}%
+  \put(0,42){\makebox(15,5){\vbox{\fontb \@clabB}}}%
+  \put(0,37){\makebox(15,5){\vbox{\fonta 研究室}}}%
   \put(0,30){\framebox(15,6){}}%
   \put(55,285){\makebox(100,15){\fontb ┌(┌＾o＾)┐ キレイに切り取ってね ┌(＾o＾┐)┐}}%
   \put(30,50){\framebox(150,230){}}%
   \put(65,250){\underline{\makebox(80,10){\fontc [~~ \@covertitle~~ ]}}}%
-  \put(55,220){\underline{\makebox(100,10){\fontb\@title }}}
-  \put(55,224){\makebox(100,10){\fontb\@longTitleA }}
-  \put(55,218){\makebox(100,10){\fontb\@longTitleB }}
+  \put(55,220){\underline{\makebox(110,10){\fontb\@title }}}
+  \put(55,224){\makebox(110,10){\fontb\@longTitleA }}
+  \put(55,218){\makebox(110,10){\fontb\@longTitleB }}
   \put(55,200){\makebox(100,15){\fontb (指~導~教~員) \hspace*{1cm} \@teacher}}%
-  \put(55,140){\underline{\makebox(100,8){\fontb \hfil \@ccourse \hfil \@clab 研究室 \hfil}}}
+  \put(55,140){\underline{\makebox(110,8){\fontb \hfil \@ccourse~~ \hfil \@clabA・\@clabB 研究室 \hfil}}}
   \put(55,117){\underline{\makebox(40,6){\fonta 学籍番号 ~ \@id}}}%
-  \put(55,100){\underline{\makebox(100,10){\fontc\@author}}}
+  \put(55,100){\underline{\makebox(110,10){\fontc\@author}}}
   \put(80,70){\makebox(100,15){\fontb [~ \@nendo~ ] }}
 \end{picture}%
 \end{center}%

@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {1.4}人工知能の様々な分野への活用}{2}
 \contentsline {section}{\numberline {1.5}知能の開発をサポートする既存フレームワークの現状}{3}
 \contentsline {section}{\numberline {1.6}人工知能のアプリケーションへの応用}{5}
-\contentsline {chapter}{\numberline {第2章}提案}{7}
+\contentsline {chapter}{\numberline {第2章}人工知能利用フレームワークの提案}{7}
 \contentsline {section}{\numberline {2.1}提案するフレームワークの目標}{7}
 \contentsline {section}{\numberline {2.2}人工知能利用フレームワークの実現方法の提案}{7}
 \contentsline {subsection}{\numberline {2.2.1}全体構成の提案}{8}
