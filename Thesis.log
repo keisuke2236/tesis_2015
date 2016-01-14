@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  14 JAN 2016 18:39
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  14 JAN 2016 19:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -130,8 +130,11 @@ Package: listings 2014/03/04 1.5c (Carsten Heinz)
 Package: jlisting 2006/02/20 0.2 (Thor)
 \lst@nextchar=\count99
 \lst@inputfile=\read1
-))
-No file Thesis.aux.
+)) (./Thesis.aux
+
+LaTeX Warning: Label `latex' multiply defined.
+
+)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -151,7 +154,7 @@ LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 \c@lstlisting=\count100
-(./Table_of_Contents.tex
+ (./Table_of_Contents.tex
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 16.60605pt on input line 7.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -227,26 +230,24 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 23.90964pt on input line 20.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 23.90964pt on input line 20.
+ (./Thesis.toc [1
 
-No file Thesis.toc.
+] [2])
 \tf@toc=\write3
 \openout3 = `Thesis.toc'.
 
-[1
-
-]
-No file Thesis.lof.
+ [3] (./Thesis.lof)
 \tf@lof=\write4
 \openout4 = `Thesis.lof'.
 
-[2
 
-]
-No file Thesis.lot.
+[4
+
+] (./Thesis.lot)
 \tf@lot=\write5
 \openout5 = `Thesis.lot'.
 
-[3
+ [5
 
 ])
 第1章
@@ -254,251 +255,69 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 35.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 35.
-(./article/now.tex
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 17.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 17.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 17.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 17.
-
-
-LaTeX Warning: Citation `deep' on page 1 undefined on input line 17.
-
-
-LaTeX Warning: Citation `boom' on page 1 undefined on input line 26.
-
-[1
+(./article/now.tex [1
 
 
 ]
-
-LaTeX Warning: Reference `fig:brainmap' on page 2 undefined on input line 44.
-
-
-LaTeX Warning: Citation `lab' on page 2 undefined on input line 44.
-
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 44.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 44.
 File: ./figure/brainmap.png Graphic file (type bmp)
-<./figure/brainmap.png>
+ <./figure/brainmap.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 46.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 46.
-
-
-LaTeX Warning: Reference `fig:brainmap' on page 2 undefined on input line 48.
-
-[2]
-
-LaTeX Warning: Reference `fig:brainmap' on page 3 undefined on input line 71.
-
-
-LaTeX Warning: Citation `tis' on page 3 undefined on input line 85.
-
-
-LaTeX Warning: Reference `fig:tis' on page 3 undefined on input line 88.
-
+ [2]
 File: ./figure/tis.png Graphic file (type bmp)
-<./figure/tis.png>
-
-LaTeX Warning: Reference `fig:tis' on page 3 undefined on input line 92.
-
-
-LaTeX Warning: Reference `sec:ippan' on page 3 undefined on input line 99.
-
-[3] [4]
-
-LaTeX Warning: Citation `rinna' on page 5 undefined on input line 122.
-
-
-LaTeX Warning: Citation `pepper' on page 5 undefined on input line 122.
-
+ <./figure/tis.png> [3]
+[4]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 125.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 125.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 125.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 125.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 125.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 125.
-
-LaTeX Warning: Citation `line' on page 5 undefined on input line 125.
-
-
-LaTeX Warning: Citation `humen' on page 5 undefined on input line 127.
-
-
-LaTeX Warning: Citation `coffe' on page 5 undefined on input line 133.
-
 File: ./figure/pepper.png Graphic file (type bmp)
-<./figure/pepper.png>
-
-LaTeX Warning: Reference `fig:pepper' on page 5 undefined on input line 139.
-
-[5]
-
-LaTeX Warning: Citation `ota' on page 6 undefined on input line 151.
-
-
-LaTeX Warning: Citation `anime' on page 6 undefined on input line 157.
-
+ <./figure/pepper.png> [5]
 File: ./figure/nowUnity.png Graphic file (type bmp)
-<./figure/nowUnity.png>
-
-LaTeX Warning: Reference `fig:nowUnity' on page 6 undefined on input line 167.
-
-) [6]
+ <./figure/nowUnity.png>) [6]
 第2章
 (./article/idia.tex
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 36.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 36.
-
-
-LaTeX Warning: Reference `fig:all_kose' on page 7 undefined on input line 37.
-
 File: ./figure/all_kose.png Graphic file (type bmp)
-<./figure/all_kose.png> [7
+ <./figure/all_kose.png> [7
 
-]
-
-LaTeX Warning: Reference `fig:all_kose' on page 8 undefined on input line 66.
-
-
-LaTeX Warning: Reference `fig:all_kose' on page 8 undefined on input line 71.
-
-[8]
-
-LaTeX Warning: Citation `suzuki' on page 9 undefined on input line 111.
-
-) [9]
+] [8] [9]) [10]
 第3章
 (./article/kose.tex
-
-LaTeX Warning: Reference `sec:allAr' on page 10 undefined on input line 7.
-
-
-LaTeX Warning: Reference `fig:analyze_chart' on page 10 undefined on input line
- 13.
-
 File: ./figure/analyze_chart.png Graphic file (type bmp)
-<./figure/analyze_chart.png>
-
-LaTeX Warning: Reference `fig:analyze_chart' on page 10 undefined on input line
- 18.
-
-[10
+ <./figure/analyze_chart.png> [11
 
 ]
-
-LaTeX Warning: Reference `fig:analyze_chart' on page 11 undefined on input line
- 28.
-
-
-LaTeX Warning: Reference `fig:analyze_chart' on page 11 undefined on input line
- 38.
-
-
-LaTeX Warning: Reference `fig:feel_analyze' on page 11 undefined on input line 
-41.
-
 File: ./figure/feel_analyze.png Graphic file (type bmp)
-<./figure/feel_analyze.png>
 
-LaTeX Warning: Reference `fig:feel_analyze' on page 11 undefined on input line 
-45.
-
-
-LaTeX Warning: Reference `fig:feel_analyze' on page 11 undefined on input line 
-49.
-
-
-LaTeX Warning: Reference `fig:feel_analyze' on page 11 undefined on input line 
-55.
-
-[11]
-
-LaTeX Warning: Reference `fig:kuppa_down' on page 12 undefined on input line 73
-.
-
+<./figure/feel_analyze.png> [12]
 File: ./figure/kuppa_down.png Graphic file (type bmp)
-<./figure/kuppa_down.png>
-
-LaTeX Warning: Reference `fig:kuppa_down' on page 12 undefined on input line 79
-.
-
-[12]
-
-LaTeX Warning: Reference `fig:kuppa_umai' on page 13 undefined on input line 91
-.
-
+ <./figure/kuppa_down.png> [13]
 File: ./figure/kuppa_umai.png Graphic file (type bmp)
-<./figure/kuppa_umai.png> [13]
 
-LaTeX Warning: Reference `fig:feel_analyze' on page 14 undefined on input line 
-115.
-
-
-LaTeX Warning: Reference `fig:analyze_abs' on page 14 undefined on input line 1
-20.
-
+<./figure/kuppa_umai.png> [14]
 File: ./figure/analyze_abs.png Graphic file (type bmp)
-<./figure/analyze_abs.png>
-
-LaTeX Warning: Reference `fig:analyze_abs' on page 14 undefined on input line 1
-24.
-
-[14] [15]
-
-LaTeX Warning: Reference `fig:output' on page 16 undefined on input line 166.
-
+ <./figure/analyze_abs.png> [15] [16]
 File: ./figure/output.png Graphic file (type bmp)
-<./figure/output.png>
 
-LaTeX Warning: Reference `fig:output' on page 16 undefined on input line 170.
-
-
-LaTeX Warning: Reference `fig:output' on page 16 undefined on input line 172.
-
-[16]
-
-LaTeX Warning: Reference `fig:analyze_abs' on page 17 undefined on input line 1
-97.
-
-[17]
+<./figure/output.png> [17] [18]
 File: ./figure/unity.png Graphic file (type bmp)
- <./figure/unity.png>
-
-LaTeX Warning: Reference `fig:unity' on page 18 undefined on input line 226.
-
-
-LaTeX Warning: Reference `fig:output' on page 18 undefined on input line 240.
-
-[18]
-
-LaTeX Warning: Reference `fig:output' on page 19 undefined on input line 244.
-
-[19]) [20]
+ <./figure/unity.png> [19] [20]) [21]
 第4章
 (./article/imple.tex
-
-LaTeX Warning: Reference `tab:InputController' on page 21 undefined on input li
-ne 24.
-
-
-LaTeX Warning: Reference `tab:InputController' on page 21 undefined on input li
-ne 40.
-
-
-LaTeX Warning: Reference `src:inCnt' on page 21 undefined on input line 41.
-
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
@@ -510,285 +329,45 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 43.
- [21
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 43.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 43.
+ [22
 
 ]
-
-LaTeX Warning: Reference `src:inCnt' on page 22 undefined on input line 45.
-
-
-LaTeX Warning: Reference `tab:InputController' on page 22 undefined on input li
-ne 47.
-
-
-LaTeX Warning: Reference `tab:InputController' on page 22 undefined on input li
-ne 50.
-
-
-LaTeX Warning: Reference `tab:Abstract Mode' on page 22 undefined on input line
- 59.
-
-
-LaTeX Warning: Reference `tab:Abstract Mode' on page 22 undefined on input line
- 74.
-
-
-LaTeX Warning: Reference `tab:Abstract Mode' on page 22 undefined on input line
- 77.
-
-[22]
-
-LaTeX Warning: Reference `tab:Abstract Mode Parts' on page 23 undefined on inpu
-t line 95.
-
-
-LaTeX Warning: Reference `tab:Abstract Mode Parts' on page 23 undefined on inpu
-t line 111.
-
-
-LaTeX Warning: Reference `tab:Abstract Mode Parts' on page 23 undefined on inpu
-t line 114.
-
-
-LaTeX Warning: Reference `src:about' on page 23 undefined on input line 117.
-
-[23]
-
-LaTeX Warning: Reference `src:about' on page 24 undefined on input line 121.
-
-
-LaTeX Warning: Reference `tab:Abstract Mode Parts' on page 24 undefined on inpu
-t line 124.
-
-
-LaTeX Warning: Reference `src:anaAlgo' on page 24 undefined on input line 130.
-
-
-LaTeX Warning: Reference `src:anaParts' on page 24 undefined on input line 134.
-
-
-[24]
-
-LaTeX Warning: Reference `src:anaParts' on page 25 undefined on input line 137.
-
-
-[25]
-
-LaTeX Warning: Reference `src:dbIn' on page 26 undefined on input line 182.
-
-
-LaTeX Warning: Reference `sec:anaAdd' on page 26 undefined on input line 182.
-
-
-LaTeX Warning: Reference `src:dbOut' on page 26 undefined on input line 187.
-
-
-LaTeX Warning: Reference `src:dbOut' on page 26 undefined on input line 191.
-
-
-LaTeX Warning: Reference `tab:OutputController' on page 26 undefined on input l
-ine 204.
-
-
-LaTeX Warning: Reference `tab:OutputController' on page 26 undefined on input l
-ine 221.
-
-
-LaTeX Warning: Reference `tab:OutputController' on page 26 undefined on input l
-ine 224.
-
-[26]
-
-LaTeX Warning: Reference `tab:OutputController' on page 27 undefined on input l
-ine 227.
-
-
-LaTeX Warning: Reference `tab:abstractmode' on page 27 undefined on input line 
-240.
-
-
-LaTeX Warning: Reference `tab:abstractmode' on page 27 undefined on input line 
-258.
-
-
-LaTeX Warning: Reference `tab:abstractmode' on page 27 undefined on input line 
-261.
-
-
-LaTeX Warning: Reference `src:getOutput' on page 27 undefined on input line 266
-.
-
-[27]
-
-LaTeX Warning: Reference `src:getOutput' on page 28 undefined on input line 270
-.
-
-
-LaTeX Warning: Reference `tab:abstractmode' on page 28 undefined on input line 
-276.
-
-
-LaTeX Warning: Reference `tab:parts' on page 28 undefined on input line 282.
-
-[28]
-
-LaTeX Warning: Reference `tab:parts' on page 29 undefined on input line 301.
-
-
-LaTeX Warning: Reference `src:aisatu' on page 29 undefined on input line 305.
-
-
-LaTeX Warning: Reference `src:aisatu' on page 29 undefined on input line 309.
-
-
-LaTeX Warning: Citation `suzuki' on page 29 undefined on input line 321.
-
-
-LaTeX Warning: Reference `sec:motion' on page 29 undefined on input line 325.
-
-[29]
-
-LaTeX Warning: Reference `src:endpoint' on page 30 undefined on input line 335.
-
-
-[30]
-
-LaTeX Warning: Reference `src:endpoint' on page 31 undefined on input line 340.
-
-
-
-LaTeX Warning: Reference `src:endpoint' on page 31 undefined on input line 344.
-
-
-
-LaTeX Warning: Reference `src:endpoint' on page 31 undefined on input line 352.
-
-
-
-LaTeX Warning: Reference `src:endpoint' on page 31 undefined on input line 355.
-
-
-
-LaTeX Warning: Reference `sec:back' on page 31 undefined on input line 370.
-
-[31] [32]
-
-LaTeX Warning: Reference `src:motion' on page 33 undefined on input line 375.
-
-
-LaTeX Warning: Reference `src:motion' on page 33 undefined on input line 377.
-
-
-LaTeX Warning: Citation `suzuki' on page 33 undefined on input line 381.
-
-
-LaTeX Warning: Reference `src:motion' on page 33 undefined on input line 385.
-
-
-LaTeX Warning: Citation `gitkuromoji' on page 33 undefined on input line 399.
-
-
-LaTeX Warning: Citation `kuromoji' on page 33 undefined on input line 400.
-
-
-LaTeX Warning: Citation `google' on page 33 undefined on input line 409.
-
-
-LaTeX Warning: Reference `src:google' on page 33 undefined on input line 411.
-
-[33]
+[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
 Overfull \hbox (64.78078pt too wide) in paragraph at lines 412--412
 [][][][] 
  []
 
-[34] [35] [36] [37] [38] [39]
-
-LaTeX Warning: Reference `src:google' on page 40 undefined on input line 414.
-
-
-LaTeX Warning: Reference `src:google' on page 40 undefined on input line 416.
-
-
-LaTeX Warning: Reference `src:google' on page 40 undefined on input line 419.
-
-
-LaTeX Warning: Reference `src:google' on page 40 undefined on input line 426.
-
-[40]
-
-LaTeX Warning: Reference `src:word' on page 41 undefined on input line 435.
-
-
-LaTeX Warning: Reference `src:word' on page 41 undefined on input line 440.
-
-
-LaTeX Warning: Reference `src:word' on page 41 undefined on input line 441.
-
-
-LaTeX Warning: Reference `src:words' on page 41 undefined on input line 444.
-
-[41]
-
-LaTeX Warning: Reference `src:words' on page 42 undefined on input line 448.
-
-) [42]
+[35] [36] [37] [38] [39] [40] [41] [42]) [43]
 第5章
 (./article/do.tex
 File: ./figure/doUnity.png Graphic file (type bmp)
- <./figure/doUnity.png>
+ <./figure/doUnity.png> [44
 
-LaTeX Warning: Reference `fig:doUnity' on page 43 undefined on input line 10.
-
-
-LaTeX Warning: Reference `tab:Chat' on page 43 undefined on input line 16.
-
-
-LaTeX Warning: Reference `tab:Chat' on page 43 undefined on input line 32.
-
-[43
-
-]
-
-LaTeX Warning: Reference `tab:Chat' on page 44 undefined on input line 35.
-
-
-LaTeX Warning: Reference `tab:afterChat' on page 44 undefined on input line 48.
-
-
-
-LaTeX Warning: Reference `tab:afterChat' on page 44 undefined on input line 67.
-
-
-) [44]
+]) [45]
 第6章
-(./article/fin.tex
+(./article/fin.tex) [46
 
-LaTeX Warning: Reference `sec:addAl' on page 45 undefined on input line 14.
+] (./article/acknowledgement.tex) [47
 
+] [48
 
-LaTeX Warning: Reference `sec:addAl' on page 45 undefined on input line 16.
+] [49]
+(./Thesis.aux)
 
-) [45
-
-] (./article/acknowledgement.tex) [46
-
-] [47
-
-] [48] (./Thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3042 strings out of 493807
- 40706 string characters out of 6151950
- 307849 words of memory out of 5000000
- 6441 multiletter control sequences out of 15000+600000
- 19717 words of font info for 91 fonts, out of 8000000 for 9000
+ 3046 strings out of 493807
+ 40749 string characters out of 6151950
+ 308369 words of memory out of 5000000
+ 6438 multiletter control sequences out of 15000+600000
+ 19408 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 36i,12n,44p,436b,1754s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,44p,436b,1756s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.dvi (55 pages, 308412 bytes).
+Output written on Thesis.dvi (58 pages, 341276 bytes).
