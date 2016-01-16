@@ -1,0 +1,12 @@
+websocketserverの仕様
+    各クライアントの管理
+    onOpen(Session session) 
+        SessionID
+    
+    クライアントからデータを受け取る
+     onMessage(String msg)
+        メッセージを人工知能Rorensuへ渡す
+        処理が終わった後にRorensuから情報を全て受け取り，適切な特定クライアントへ送信する
+        
+        
+    
