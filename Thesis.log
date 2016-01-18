@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  16 JAN 2016 17:32
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.11)  18 JAN 2016 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -130,11 +130,7 @@ Package: listings 2014/03/04 1.5c (Carsten Heinz)
 Package: jlisting 2006/02/20 0.2 (Thor)
 \lst@nextchar=\count99
 \lst@inputfile=\read1
-)) (./Thesis.aux
-
-LaTeX Warning: Label `latex' multiply defined.
-
-)
+)) (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -260,33 +256,35 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 46.
+(Font)              scaled to size 9.60999pt on input line 47.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 46.
+(Font)              scaled to size 9.60999pt on input line 47.
 File: ./figure/brainmap.png Graphic file (type bmp)
  <./figure/brainmap.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 48.
+(Font)              scaled to size 8.64899pt on input line 49.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 48.
+(Font)              scaled to size 8.64899pt on input line 49.
  [2] [3]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 112.
+(Font)              scaled to size 6.72699pt on input line 113.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 112.
+(Font)              scaled to size 5.76599pt on input line 113.
 File: ./figure/tis.png Graphic file (type bmp)
  <./figure/tis.png>
 [4]
-File: ./figure/pepper.png Graphic file (type bmp)
- <./figure/pepper.png> [5]
+File: ./figure/usePepper.png Graphic file (type bmp)
+ <./figure/usePepper.png>
+File: ./figure/Pepper.png Graphic file (type bmp)
+ <./figure/Pepper.png> [5]
 File: ./figure/nowUnity.png Graphic file (type bmp)
- <./figure/nowUnity.png>) [6]
+ <./figure/nowUnity.png>) [6] [7]
 第2章
-(./article/idia.tex [7
+(./article/idia.tex [8
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -294,28 +292,28 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 52.
 File: ./figure/all_kose.png Graphic file (type bmp)
- <./figure/all_kose.png> [8] [9]) [10]
+ <./figure/all_kose.png> [9] [10]) [11]
 第3章
 (./article/kose.tex
 File: ./figure/analyze_chart.png Graphic file (type bmp)
- <./figure/analyze_chart.png> [11
+ <./figure/analyze_chart.png> [12
 
 ]
 File: ./figure/feel_analyze.png Graphic file (type bmp)
 
-<./figure/feel_analyze.png> [12]
+<./figure/feel_analyze.png> [13]
 File: ./figure/kuppa_down.png Graphic file (type bmp)
- <./figure/kuppa_down.png> [13]
+ <./figure/kuppa_down.png> [14]
 File: ./figure/kuppa_umai.png Graphic file (type bmp)
 
-<./figure/kuppa_umai.png> [14]
+<./figure/kuppa_umai.png> [15]
 File: ./figure/analyze_abs.png Graphic file (type bmp)
- <./figure/analyze_abs.png> [15]
+ <./figure/analyze_abs.png> [16]
 File: ./figure/output.png Graphic file (type bmp)
 
-<./figure/output.png> [16]
+<./figure/output.png> [17]
 File: ./figure/unity.png Graphic file (type bmp)
- <./figure/unity.png> [17] [18]) [19]
+ <./figure/unity.png> [18] [19]) [20]
 第4章
 (./article/imple.tex
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -333,41 +331,45 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 7.68799pt on input line 43.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 7.68799pt on input line 43.
- [20
+ [21
 
 ]
-[21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+[22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+
+LaTeX Warning: Citation `kuromoji' on page 33 undefined on input line 400.
+
+[33]
 Overfull \hbox (64.78078pt too wide) in paragraph at lines 412--412
 [][][][] 
  []
 
-[33] [34] [35]) [36] [37]
+[34] [35] [36]) [37] [38]
 第5章
 (./article/do.tex
 File: ./figure/doUnity.png Graphic file (type bmp)
- <./figure/doUnity.png> [38
+ <./figure/doUnity.png> [39
 
-]) [39]
+]) [40]
 第6章
-(./article/fin.tex) [40
+(./article/fin.tex) [41
 
-] (./article/acknowledgement.tex) [41
+] (./article/acknowledgement.tex) [42
 
-] [42
+] [43
 
-] [43]
+] [44]
 (./Thesis.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2981 strings out of 493807
- 39824 string characters out of 6151950
- 300373 words of memory out of 5000000
- 6373 multiletter control sequences out of 15000+600000
+ 2987 strings out of 493807
+ 39903 string characters out of 6151950
+ 301393 words of memory out of 5000000
+ 6378 multiletter control sequences out of 15000+600000
  19408 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  36i,12n,44p,436b,1756s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.dvi (52 pages, 283968 bytes).
+Output written on Thesis.dvi (53 pages, 286288 bytes).
